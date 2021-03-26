@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>flake8 violations: .\Loan\test_loan.py</title>
+      <meta http-equiv="Content-Type" value="text/html; charset=UTF-8">
+      <link rel="stylesheet" href="styles.css">
+<script>
+function bindHandler(link) {
+   var code = link.getAttribute('data-code');
+   var key = location.pathname + '#' + code;
+
+   var ul = link.parentNode.querySelector('.details');
+   if (sessionStorage[key] != 'open') {
+      ul.style.display = 'none';
+   }
+   link.addEventListener('click', function (event) {
+      if (!ul.style.display || ul.style.display == 'none') {
+         ul.style.display = 'block';
+         sessionStorage[key] = 'open';
+      } else {
+         ul.style.display = 'none';
+         sessionStorage[key] = 'closed';
+      }
+   });
+}
+
+window.addEventListener('DOMContentLoaded', function () {
+   var links = document.querySelectorAll('#index > li > a');
+   for (var i = 0; i < links.length; i++) {
+      bindHandler(links[i]);
+   }
+});
+</script>
+   </head>
+   <body>
+      <div id="masthead" class="sev-2"></div>
+      <div id="page">
+         <p id="srclink">
+            <a title="View full annotated source"
+               href="Loan.test_loan.source.html">
+               <img src="file.svg" alt="&#x2261;">
+            </a></p>
+         <h1>
+            <a href="index.html">
+               <img src="back.svg" alt="&#x2B05;">
+               .\Loan\test_loan.py
+            </a>
+         </h1>
+
+         <ul id="index">
+         
+         <li>
+            <a data-code="E128">
+               <span class="count sev-2">
+                  10
+               </span>
+               <strong>E128:</strong> continuation line under-indented for visual indent
+               
+            </a>
+            <ul class="details">
+            <li>
+               
+               <a href="Loan.test_loan.source.html#l8">
+                  <tt><i>8</i>     <span class="n">address</span><span class="o">=</span><span class="s2">&quot;test&quot;</span><span class="p">,</span></tt>
+               </a>
+            </li><li>
+               
+               <a href="Loan.test_loan.source.html#l9">
+                  <tt><i>9</i>     <span class="n">contactNo</span><span class="o">=</span><span class="mi">9761348520</span><span class="p">,</span></tt>
+               </a>
+            </li><li>
+               
+               <a href="Loan.test_loan.source.html#l10">
+                  <tt><i>10</i>     <span class="n">country</span><span class="o">=</span><span class="s2">&quot;test&quot;</span><span class="p">,</span></tt>
+               </a>
+            </li><li>
+               
+               <a href="Loan.test_loan.source.html#l11">
+                  <tt><i>11</i>     <span class="n">dob</span><span class="o">=</span><span class="s2">&quot;test&quot;</span><span class="p">,</span></tt>
+               </a>
+            </li><li>
+               
+               <a href="Loan.test_loan.source.html#l12">
+                  <tt><i>12</i>     <span class="n">email</span><span class="o">=</span><span class="s2">&quot;test@test.com&quot;</span><span class="p">,</span></tt>
+               </a>
+            </li><li>
+               
+               <a href="Loan.test_loan.source.html#l13">
+                  <tt><i>13</i>     <span class="n">name</span><span class="o">=</span><span class="s2">&quot;test&quot;</span><span class="p">,</span></tt>
+               </a>
+            </li><li>
+               
+               <a href="Loan.test_loan.source.html#l14">
+                  <tt><i>14</i>     <span class="n">pan</span><span class="o">=</span><span class="s2">&quot;TEST1234&quot;</span><span class="p">,</span></tt>
+               </a>
+            </li><li>
+               
+               <a href="Loan.test_loan.source.html#l15">
+                  <tt><i>15</i>     <span class="n">password</span><span class="o">=</span><span class="s2">&quot;12345678&quot;</span><span class="p">,</span></tt>
+               </a>
+            </li><li>
+               
+               <a href="Loan.test_loan.source.html#l16">
+                  <tt><i>16</i>     <span class="n">state</span><span class="o">=</span><span class="s2">&quot;test&quot;</span><span class="p">,</span></tt>
+               </a>
+            </li><li>
+               
+               <a href="Loan.test_loan.source.html#l17">
+                  <tt><i>17</i>     <span class="n">username</span><span class="o">=</span><span class="s2">&quot;test&quot;</span><span class="p">,</span></tt>
+               </a>
+            </li>
+            </ul>
+         </li>
+         
+         <li>
+            <a data-code="E124">
+               <span class="count sev-2">
+                  1
+               </span>
+               <strong>E124:</strong> closing bracket does not match visual indentation
+               
+            </a>
+            <ul class="details">
+            <li>
+               
+               <a href="Loan.test_loan.source.html#l18">
+                  <tt><i>18</i>     <span class="p">)</span></tt>
+               </a>
+            </li>
+            </ul>
+         </li>
+         
+         <li>
+            <a data-code="E501">
+               <span class="count sev-2">
+                  1
+               </span>
+               <strong>E501:</strong> line too long (123 > 79 characters)
+               
+            </a>
+            <ul class="details">
+            <li>
+               
+               <a href="Loan.test_loan.source.html#l29">
+                  <tt><i>29</i> <span class="n">test_loan_object</span> <span class="o">=</span> <span class="n">LoanModel</span><span class="p">(</span><span class="n">loan_amount</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">loan_type</span><span class="o">=</span><span class="s1">&#39;TestLoan&#39;</span><span class="p">,</span> <span class="n">date</span><span class="o">=</span><span class="s1">&#39;test&#39;</span><span class="p">,</span> <span class="n">rate_of_interest</span><span class="o">=</span><span class="mi">15</span><span class="p">,</span> <span class="n">duration</span><span class="o">=</span><span class="mi">15</span><span class="p">,</span> <span class="n">user_id</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span></tt>
+               </a>
+            </li>
+            </ul>
+         </li>
+         
+         </ul>
+      </div>
+   </body>
+</html>

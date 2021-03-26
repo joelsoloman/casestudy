@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+flask-restful = "*"
+flask-sqlalchemy = "*"
+flask-marshmallow = "*"
+marshmallow-sqlalchemy = "*"
+pymysql = "*"
+mysql = "*"
+pytest = "*"
+coverage = "*"
+pyjwt = "*"
+flake8 = "*"
+flake8-html = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
